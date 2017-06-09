@@ -25,4 +25,4 @@ All the code references will be displayed with the following format:
 ```
 **Files** Sandard files can be uploaded
 
-	[Diagnose Result During Failure 3 10 2017](/uploads/assets/diagnose-result-during-failure-3-10-2017.txt "Diagnose Result During Failure 3 10 2017")
+>[Diagnose Result During Failure 3 10 2017](/uploads/assets/diagnose-result-during-failure-3-10-2017.txt "Diagnose Result During Failure 3 10 2017")
