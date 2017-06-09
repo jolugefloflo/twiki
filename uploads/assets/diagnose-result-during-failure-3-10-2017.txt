@@ -1,0 +1,47 @@
+
+Connected
+ 
+FG080D3916001385 # diagnose hardware deviceinfo nic port3
+Description		RealTek RTL-8168 Gigabit Ethernet driver 8.038.00       
+System_Device_Name	port3                                             
+Current_HWaddr		90:6c:ac:4f:1a:14                                    
+Permanent_HWaddr	90:6c:ac:4f:1a:14                                   
+State			up                                                           
+Link			up                                                            
+Speed			1000                                                         
+Duplex			full                                                        
+Rx_Packets		2                                                        
+Tx_Packets		1322                                                     
+Rx_Bytes		120                                                        
+Tx_Bytes		175647                                                     
+ 
+FG080D3916001385 # diagnose netlink interface list port3
+ 
+if=port3 family=00 type=1 index=4 mtu=1500 link=0 master=0
+ref=79 state=start present fw_flags=0 flags=up broadcast run allmulti multicast 
+Qdisc=pfifo_fast hw_addr=90:6c:ac:4f:1a:14 broadcast_addr=ff:ff:ff:ff:ff:ff
+stat: rxp=3 txp=1949 rxb=180 txb=258566 rxe=0 txe=0 rxd=0 txd=0 mc=0 collision=0
+re: rxl=0 rxo=0 rxc=0 rxf=0 rxfi=0 rxm=0
+te: txa=0 txc=0 txfi=0 txh=0 txw=0
+misc rxc=0 txc=0 stop=0
+input_type=0 state=6 arp_entry=2 refcnt=79
+ 
+FG080D3916001385 # get sys arp
+Address           Age(min)   Hardware Addr      Interface
+192.168.1.115     1          a0:8c:fd:f5:5b:62 port1
+192.168.1.118     1          48:0f:cf:c2:67:e3 port1
+192.168.1.119     1          00:25:64:ec:9c:63 port1
+192.168.1.124     0          90:6c:ac:4f:1a:14 port1
+192.168.1.125     1          ac:5f:3e:4c:4f:77 port1
+192.168.1.127     1          00:24:e8:01:b6:89 port1
+192.168.1.128     1          bc:30:5b:e5:ae:3a port1
+192.168.1.134     1          f0:4d:a2:f7:74:cd port1
+192.168.1.137     1          00:1d:09:9b:d8:1f port1
+192.168.1.138     1          c8:3a:35:d2:06:00 port1
+192.168.1.139     1          00:1d:09:9a:9b:c1 port1
+192.168.1.140     1          08:21:ef:dd:30:dc port1
+192.168.1.144     1          84:2b:2b:92:c1:37 port1
+192.168.1.145     1          bc:30:5b:e5:c9:4b port1
+189.211.188.193   0          88:f0:77:4b:36:50 port3
+ 
+FG080D3916001385 #  
