@@ -10,3 +10,13 @@
 
 # Best Practices
 **Edits** In order to modify any content on this Twiki, you must be a member of admin users (
+
+> **Code Conventions**
+> All the code references will be displayed with the following format:
+
+```bash
+# exports.handler = function(context, event, callback) {
+	let twiml = new Twilio.twiml.MessagingResponse();
+	twiml.message("Tank you for reaching us, your request is being processed");
+	callback(null, twiml);
+};
