@@ -48,4 +48,4 @@ All the code references will be displayed with the following format:
 | **port**            | no  | The port on which the server should listen to. You can also use the environment variable process.env.PORT by omitting this property. | 80 |
 | **paths.repo**      | yes | The path (absolute or relative to server.js) to the folder where markdown content will be synchronized with the Git repository. Make sure this folder has the necessary write permissions. Note that this folder will contain all uploads (images, documents, etc.), so make sure to allow enough disk space depending on your usage. | ./repo |
 | **paths.data**      | yes | The path (absolute or relative to server.js) to the folder where temporary data will be stored (cache, thumbnails, search indexes, etc.). Make sure this folder has the necessary write permissions. | ./data |
-| **lang**            | yes | The default language to use for the site UI. Possible values: `en`, `de`, `es`, `fr`, `ko`, `pt` or `ru` | en |
+| **lang**            | no  | The default language to use for the site UI. Possible values: `en`, `de`, `es`, `fr`, `ko`, `pt` or `ru` | en |
