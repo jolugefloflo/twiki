@@ -12,7 +12,7 @@
 # Best Practices
 **Edits** In order to modify any content on this Twiki, you must be a member of admin users (
 
-**Code Conventions**
+**Code References**
 All the code references will be displayed with the following format:
 
 ```bash
