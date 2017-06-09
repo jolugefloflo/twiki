@@ -7,3 +7,6 @@
 
 > **GIT Repository**
 > All the resources contained here, are being updated and backed on [Github](www.github.com) page
+
+# Best Practices
+**Edits** In order to modify any content on this Twiki, you must be a member of admin users (
