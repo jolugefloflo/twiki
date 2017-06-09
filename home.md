@@ -24,6 +24,9 @@ All the code references will be displayed with the following format:
 };
 ```
 
+
+-----
+
 # Files
 **Sandard** files can be uploaded
 
