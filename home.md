@@ -28,3 +28,5 @@ All the code references will be displayed with the following format:
 >[Diagnose Result During Failure 3 10 2017](/uploads/assets/diagnose-result-during-failure-3-10-2017.txt "Diagnose Result During Failure 3 10 2017")
 >
 >[Managed Services Data Sheet](/uploads/assets/managed-services-data-sheet.pdf "Managed Services Data Sheet")
+>
+>[Amigo Help Desk Report](/uploads/assets/amigo-help-desk-report.xlsx "Amigo Help Desk Report")
